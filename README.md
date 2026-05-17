@@ -18,11 +18,9 @@ cardiac_ct_pipeline/
 │   ├── dataset.py          # Synthetic dummy dataset for pipeline validation
 │   ├── evaluate.py         # Evaluation: Dice, IoU, HD95, Bland-Altman, overlays
 │   ├── utils.py            # Loss functions, metrics, plotting utilities
-│   └── quantify.py         # Volumetric quantification utilities
 ├── scripts/
 │   ├── run_train.py        # Entry point: training
 │   ├── run_evaluate.py     # Entry point: evaluation
-│   └── run_inference.py    # Entry point: inference on new scans
 ├── config.yaml             # All hyperparameters and paths
 ├── requirements.txt        # Python dependencies
 └── README.md
