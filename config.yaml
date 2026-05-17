@@ -1,0 +1,19 @@
+batch_size: 2
+data_dir: /content/ct_train
+device: cpu
+early_stopping_patience: 10
+hu_window:
+- -150
+- 250
+img_size: 192
+learning_rate: 0.001
+num_classes: 5
+num_epochs: 50
+num_input_slices: 5
+num_workers: 0
+output_dir: ./data/outputs
+save_overlay_count: 10
+seed: 42
+test_ratio: 0.15
+train_ratio: 0.7
+val_ratio: 0.15
